@@ -1,0 +1,164 @@
+__________________________________________________________________________
+
+InstallAnywhere 2021
+Version: 21.0
+__________________________________________________________________________
+
+Sat Dec 09 12:12:14 PST 2023
+
+Free Memory: 250449 kB
+Total Memory: 264192 kB
+
+No Arguments
+
+java.class.path:
+    /Users/wsong/Downloads/neuromab/ColdFusion 2023 Installer.app/Contents/Resources/Java/Execute.zip
+    /Users/wsong/Downloads/neuromab/ColdFusion 2023 Installer.app/Contents/Resources/Java/IAClasses.zip
+    /Users/wsong/Downloads/neuromab/ColdFusion 2023 Installer.app/Contents/Resources/Java/installscript.zip
+    /Users/wsong/Downloads/neuromab/ColdFusion 2023 Installer.app/Contents/Resources/Java
+    /Users/wsong/Downloads/neuromab/ColdFusion 2023 Installer.app/Contents/Resources/Java/linking.zip
+
+ZGUtil.CLASS_PATH:
+    /Users/wsong/Downloads/neuromab/ColdFusion 2023 Installer.app/Contents/Resources/Java/Execute.zip
+    /Users/wsong/Downloads/neuromab/ColdFusion 2023 Installer.app/Contents/Resources/Java/IAClasses.zip
+    /Users/wsong/Downloads/neuromab/ColdFusion 2023 Installer.app/Contents/Resources/Java/installscript.zip
+    /Users/wsong/Downloads/neuromab/ColdFusion 2023 Installer.app/Contents/Resources/Java
+
+sun.boot.class.path:
+    <none specified>
+
+java.ext.dirs:
+    <none specified>
+
+java.version                  == 17.0.6 (Java 1)
+mrj.version                   == 3.1
+java.vm.name                  == Java HotSpot(TM) 64-Bit Server VM
+java.vm.vendor                == Oracle Corporation
+java.vm.version               == 17.0.6+9-LTS-190
+java.vm.specification.name    == Java Virtual Machine Specification
+java.vm.specification.vendor  == Oracle Corporation
+java.vm.specification.version == 17
+java.specification.name       == Java Platform API Specification
+java.specification.vendor     == Oracle Corporation
+java.specification.version    == 17
+java.vendor                   == Oracle Corporation
+java.vendor.url               == https://java.oracle.com/
+java.class.version            == 61.0
+java.library.path             == .:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:/Users/wsong/Downloads/neuromab:/var/folders/hd/5zrm00x918g9xb5hpzzz_9q40000gn/T/IA-2118205565/IA-2118205565/jre/Contents/Home/lib:/Users/wsong/Downloads/neuromab/ColdFusion 2023 Installer.app/Contents/Resources/Java:/Users/wsong/Downloads/neuromab/ColdFusion 2023 Installer.app/Contents/MacOS:/Users/wsong/Downloads/neuromab/ColdFusion 2023 Installer.app/Contents/Resources
+java.compiler                 == null
+java.home                     == /private/var/folders/hd/5zrm00x918g9xb5hpzzz_9q40000gn/T/IA-2118205565/IA-2118205565/jre/Contents/Home
+java.io.tmpdir                == /var/folders/hd/5zrm00x918g9xb5hpzzz_9q40000gn/T/
+os.name                       == Mac OS X
+os.arch                       == x86_64
+os.version                    == 14.1.1
+path.separator                == :
+file.separator                == /
+file.encoding                 == UTF-8
+user.name                     == wsong
+user.home                     == /Users/wsong
+user.dir                      == /Users/wsong/Downloads/neuromab
+user.language                 == en
+user.region                   == null
+__________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Loading externalized properties
+
+
+fstab: /etc/fstab.hd (No such file or directory)
+** FileSystem (FSTab): could not generate static fs table
+fstab: /etc/fstab.hd (No such file or directory)
+fstab: /etc/fstab.hd (No such file or directory)
+System's temporary directory = /tmp
+RepositoryManager: Trying fallback repository location...
+Exit Existing CFMX section:
+PREV_CURRENT_CF_DETECTION is unknown
+PREV_JRUN4_DETECTION is unknown
+PREV_COLDFUSION_DETECTION is true
+ASK_PREV_CFMX7_INSTALLED is false
+ASK_PREV_JRUN4_INSTALLED is true
+MIGRATE_CF2021 is false
+MIGRATE_CF2018 is false
+MIGRATE_CF2016 is false
+INSTALLER_TYPE is 0
+DO_INSTALL_JRUN is 
+
+
+Exit Existing CFMX section:
+PREV_CURRENT_CF_DETECTION is unknown
+PREV_JRUN4_DETECTION is unknown
+PREV_COLDFUSION_DETECTION is true
+ASK_PREV_CFMX7_INSTALLED is false
+ASK_PREV_JRUN4_INSTALLED is true
+MIGRATE_CF2021 is false
+MIGRATE_CF2018 is false
+MIGRATE_CF2016 is false
+INSTALLER_TYPE is 0
+DO_INSTALL_JRUN is 
+
+
+USER_MAGIC_FOLDER_8 is 
+USER_MAGIC_FOLDER_8_1 is 
+
+MIGRATE_CF2021 is false
+MIGRATE_CF2018 is false
+MIGRATE_CF2016 is false
+MIGRATE_COLDFUSION is false
+
+PREV_COLDFUSION_DETECTION is true
+PREV_COLDFUSION_LOCATION is 
+
+PREV_CURRENT_CF_DETECTION is unknown
+PREV_CF8_LOCATION is 
+PREV_JRUN4_DETECTION is false
+
+DO_INSTALL_JRUN IS true
+
+***** 1 ReplayVariables for CreateDialog named HOSTNAME
+  req 1106 avail 107241
+fstab: /etc/fstab.hd (No such file or directory)
+fstab: /etc/fstab.hd (No such file or directory)
+fstab: /etc/fstab.hd (No such file or directory)
+XMLScriptWriter: No Installation Objects were skipped
+Action: exception while executing: com.zerog.ia.installer.actions.MoveFileAction -- Moving File: <No target selected>
+java.lang.NullPointerException: Cannot invoke "com.zerog.ia.installer.FileAction.getDestinationName()" because the return value of "com.zerog.ia.installer.actions.MoveFileAction.getTargetAction()" is null
+	at com.zerog.ia.installer.actions.MoveFileAction.getLogDescription(Unknown Source)
+	at com.zerog.ia.installer.InstallablePiece.install(Unknown Source)
+	at com.zerog.ia.installer.InstallablePiece.install(Unknown Source)
+	at com.zerog.ia.installer.GhostDirectory.install(Unknown Source)
+	at com.zerog.ia.installer.InstallablePiece.install(Unknown Source)
+	at com.zerog.ia.installer.Installer.install(Unknown Source)
+	at com.zerog.ia.installer.actions.InstallProgressAction.ae(Unknown Source)
+	at com.zerog.ia.installer.actions.ProgressPanelAction$1.run(Unknown Source)
+Retrying Installables deferred in pass 0
+Deferral retries done because: 
+There were no deferrals in the last pass.
+website port($INTERNAL_PORT_NUMBER$) 8500
+
+BrowserLauncher.openURL(http://127.0.0.1:8500/CFIDE/administrator/index.cfm)
+
+SHUTDOWN REQUESTED
+(X) commiting registry
+
+REGISTRY ALREADY STORED!
+
+(X) shutting down service manager
+(X) cleaning up temporary directories
+Exiting with exit code: 0
+8. final log file name=/Applications/ColdFusion2023/Adobe_ColdFusion_2023_Install_12_09_2023_12_17_55.log
